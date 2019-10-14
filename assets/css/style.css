@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background: url(https://ak2.picdn.net/shutterstock/videos/8779042/thumb/1.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+    /* Font to be installed provided in assets/images. */
+@font-face {
+    font-family: 'Star Jedi';
+    src:local('Star Jedi'),local('StarJedi-Regular'),
+}
+
+header {
+    line-height: 0.90;
+}
+
+h1 {
+    font-family: 'Star Jedi';
+    font-size: 50px;
+    text-align: center;
+    color: #ffee00;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: underline;
+    color: #ffee00;
+}
+
+.sub-header1 {
+    float: left;
+    padding: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    width: 50%;
+    text-decoration: underline;
+    color: #ffee00;
+}
+
+.sub-header2 {
+    float: left;
+    padding: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    width: 50%;
+    text-decoration: underline;
+    color: #ffee00;
+}
+
+.jedi-main {
+    float: left;
+    margin: 30px 50px;
+
+}
+
+.vs {
+    float: left;
+    margin: 85px 170px;
+    vertical-align: middle;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffee00;
+}
+
+.sith-main {
+    float: left;
+    margin: 30px 50px;
+}
+
+.jedi {
+    display: inline-block;
+    margin: 0 20px;  
+}
+
+.jedi:hover {
+    cursor: pointer;
+}
+.sith {
+    display: inline-block;
+    margin: 0 20px;
+    margin-right: -10px;
+}
+.sith:hover {
+    cursor: pointer;
+}
+.ring {
+    float: left;
+    height: 300px;
+    width: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffee00;
+    background-color: white;
+}
+
+.blue {
+    float: left;
+    height: 300px;
+    width: 33.3%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffee00;
+    background-color: blue;
+}
+
+.result {
+    float: left;
+    height: 300px;
+    width: 33.3%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffee00;
+    background-color: grey;
+}
+
+.red {
+    float: left;
+    height: 300px;
+    width: 33.3%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffee00;
+    background-color: red;
+}
+
+.name {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffee00;
+    background-color: white;
+}
+
+.player1 {
+    position: relative;
+    margin: 10px 0 10px 200px;
+    width: 110px;
+    height: 156px;
+    background-color: darkgray;
+}
+
+.player2 {
+    position: relative;
+    margin: 10px 0 10px 200px;
+    width: 110px;
+    height: 156px;
+    background-color: darkgray;
+}
+
+.hp {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffee00;
+    background-color: green;
+
+}#mace {
+    visibility: opacity 1;
+}
